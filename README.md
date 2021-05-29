@@ -9,7 +9,7 @@ correctly, but they are not going to stick around to find out (they have more im
 
 A stateless queue receives packages from a sender, to which they make a response that receipt is complete.
 Each queue is associated with a function that processes each item in the queue.  A timer determines how often
-an item in the queue is processed.  The function and timer are supplied when the queue is created. 
+an item in the queue is processed.  The function and timer are supplied when the queue is created.
 
 When something is added to the queue, the item is processed in order when the timer triggers.
 

@@ -1,0 +1,19 @@
+{
+  "name": "stateless-queue",
+  "version": "1.0.0",
+  "description": "Imagine you are the post master in a post office.  People come by each day to drop off mail.\r When a person drops off a piece of mail, they are interested in whether the piece of mail\r is recieved by the post office.  They would eventually like to know whether the mail was processed\r correctly, but they are not going to stick around to find out (they have more important things to do).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blainedwards8/stateless-queue.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blainedwards8/stateless-queue/issues"
+  },
+  "homepage": "https://github.com/blainedwards8/stateless-queue#readme"
+}
