@@ -8,7 +8,8 @@ class Queue {
     }
   
     add(obj) {
-      this.queue.push(obj);
+      const copy = JSON.parse(JSON.stringify(obj));
+      this.queue.push(copy);
     }
   
     stop () {
